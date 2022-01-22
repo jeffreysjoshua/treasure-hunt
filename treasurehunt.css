@@ -1,0 +1,126 @@
+
+
+h1{
+    font-size: 50px;
+    text-shadow: 2px 2px #000;
+}
+
+#gameboard{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+td{
+    height: 172px;
+    width: 172px;
+    padding: 16px;
+    border: 3px #B8860B;;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 60px;
+}
+
+body{
+    height: 100%;
+    background-image: url('https://media.giphy.com/media/3o85xGMx8PZqM9g8IE/giphy.gif'); background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #DC143C;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-shadow: 2px 2px #000;
+}
+
+#footer{
+    font-size: small;
+}
+
+a:link {
+    color: whitesmoke;
+  }
+
+a:visited {
+color: whitesmoke;
+}
+
+.rules{
+    font-size: x-large;
+}
+
+#alert{
+    font-size: xx-large;
+}
+
+#rules-intro{
+    font-size: xx-large;
+}
+
+#reset-button{
+    border-radius: 12px;
+    font-size: xx-large;
+    background-color: #8B0000;
+    border: none;
+    color: black;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+
+#tech-sergeant{
+    animation: bounceIn .95s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+@keyframes bounceIn{
+    0%{
+        transform: rotate(1deg);
+    }
+    60%{
+        transform: rotate(-1deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.top-stuff{
+    /* background-color: rgb(255, 255, 255, 0.2); */
+    border-radius: 11px;
+    box-shadow: 0 3px 10px #B8860B;
+    padding: 10px;
+    margin: 10px;
+    width: fit-content; /*makes the white box wrap around the contect*/
+    margin-left: 11.95%;
+    font-size: 2px;
+}
+
+#top-stuff-inside{
+    opacity: 100%;
+    margin-left: 21px;
+    margin-right: 26px;
+    padding-bottom: 1px;
+}
+
+#header {
+  font-size: 60px;
+  margin-left: 15.5%;
+  text-decoration: underline;
+}
